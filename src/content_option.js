@@ -1,135 +1,149 @@
+import portfolio1 from "./assets/images/portfolio1.jpg";
+import portfolio2 from "./assets/images/portfolio2.jpg";
+import portfolio3 from "./assets/images/portfolio3.jpg";
+import portfolio4 from "./assets/images/portfolio4.jpg";
+import portfolio5 from "./assets/images/portfolio5.jpg";
+import portfolio6 from "./assets/images/portfolio6.jpg";
+import portfolio7 from "./assets/images/portfolio7.jpg";
+import portfolio8 from "./assets/images/portfolio8.jpg";
+import portfolio9 from "./assets/images/portfolio9.jpg";
+import portfolio10 from "./assets/images/portfolio10.jpg";
+import portfolio11 from "./assets/images/portfolio11.jpg";
+import portfolio12 from "./assets/images/portfolio12.jpg";
+
+
 const logotext = "JOHN";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Santiago Mayorga",
+    description: "",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Santiago Mayorga",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I love Horses and atv's",
+        second: "I study marketing and advertising",
+        third: "one live live it",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "Discover everything about me on this website, including my best photos and my personal summary.",
     your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Santiago Mayorga Garcia",
+    aboutme: "Hello, I am Santiago Mayorga. I am 21 years old, and my birthday is on March 26th. I study Marketing and Advertising. I am very active and enjoy sports and business. I have a company and two startups, and I work in the family business. I have 3 dogs, a horse, and a cow. My favorite animal is the horse. What I enjoy the most is horseback riding and ATV riding. I love stargazing and the moon. I enjoy traveling and experiencing new cultures. I aspire to become a great entrepreneur in Colombia and help many people. I want my name to be recognized for the great person I can become.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
+        jobtitle: "JS Hermanos",
+        where: "Moniquira",
         date: "2020",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
+        jobtitle: "Waiter",
+        where: "US",
+        date: "2023",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Cantera metropolis ",
+        where: "Moniquira",
+        date: "2024",
     },
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
+        name: "Math",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "Marketing",
+        value: 85,
     },
     {
-        name: "Jquery",
+        name: "English",
+        value: 50,
+    },
+    {
+        name: "Advertising",
         value: 85,
+    },
+    {
+        name: "Business",
+        value: 100,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Social media marketing",
+        description: "Videos, photos, and content for social networks.",
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Manager of social networks",
+        description: "Improvement of social networks and content.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Seller",
+        description: "Sales of products and services.",
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: portfolio1,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
+        img: portfolio2,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: portfolio3,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: portfolio4,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: portfolio5,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: portfolio6,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
 
     {
-        img: "https://picsum.photos/400/600/?grayscale",
+        img: portfolio7,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: portfolio8,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: portfolio9,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/550/?grayscale",
+        img: portfolio10,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
+        img: portfolio11,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: portfolio12,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
